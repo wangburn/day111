@@ -1,12 +1,12 @@
 package day111;
 
-public class User {
+public class UserBean {
 	//属性
 	private String userName;
 	private String password;
 	
 	//构造方法
-	public User() {
+	public UserBean() {
 		super();
 	}
 

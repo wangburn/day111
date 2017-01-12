@@ -31,7 +31,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	}
      %>
 	欢迎您<%=userName%>.
-	<jsp:useBean id="user" class="day111.User" scope="page"/>
+	<jsp:useBean id="user" class="day111.UserBean" scope="page"/>
 	
 	<jsp:setProperty property="*" name="user"/>
 	<%--
